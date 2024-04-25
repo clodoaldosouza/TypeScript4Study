@@ -1,0 +1,16 @@
+{
+  "name": "helloworldtypescript",
+  "version": "1.0.0",
+  "description": "Learning TypeScript using basic codes",
+  "main": "index.js",
+  "scripts": {
+	"buildAndRun": "npx tsc && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

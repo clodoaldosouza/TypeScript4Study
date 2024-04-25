@@ -1,0 +1,52 @@
+
+Criar projeto de node 
+>npm init -y 
+
+Instalar o TypeScript com dependencia só de desenvolvimento
+>npm install typescript -D
+
+Criar a pasta de src
+>md src
+
+Usar o console do NPM
+
+Converter um TypeScript em JavaScript
+>npx tsc test.ts
+
+Executar com NPM o arquvio JS
+>node build\test.js
+
+Criar o TSConfig (tsconfig.json)
+Primeiro Apagar os arquivos .js
+
+Criar um arquivo 
+>npx tsc --init
+
+Pode editar o arquivo e inserir 
+"rootDir": "./src",
+"outDir": "./build",
+
+Após isso chamar
+>npx tsc
+
+Criando um scritp para converter automaticamente os arquivos ts em js.
+Abrir o package.json
+Na parte de script add os comandos conforme abaixo:
+"buildAndRun": "npx tsc && node build/test.js",
+
+Executar o script acima:
+>npm run buildAndRun
+
+
+
+
+
+
+
+
+
+
+
+
+
+
